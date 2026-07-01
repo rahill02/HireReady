@@ -2,7 +2,7 @@
 
 An AI-powered mock interview preparation platform that helps developers practice technical interviews, get instant AI feedback, and track their progress over time.
 
-🔗 **Live Demo:** _add your deployed link here once Phase 11 is complete_
+🔗 **Live Demo:** https://hire-ready-puce.vercel.app
 
 ---
 
@@ -21,6 +21,7 @@ An AI-powered mock interview preparation platform that helps developers practice
 ## Tech Stack
 
 **Frontend**
+
 - React.js (Vite)
 - Tailwind CSS
 - React Router
@@ -28,6 +29,7 @@ An AI-powered mock interview preparation platform that helps developers practice
 - Recharts
 
 **Backend**
+
 - FastAPI (Python)
 - MongoDB Atlas
 - JWT Authentication + bcrypt
@@ -36,6 +38,7 @@ An AI-powered mock interview preparation platform that helps developers practice
 - PyMuPDF (PDF text extraction)
 
 **Deployment**
+
 - Frontend → Vercel
 - Backend → Render
 
@@ -83,6 +86,7 @@ hireready/
 ## Running Locally
 
 ### Backend
+
 ```bash
 cd backend
 python -m venv venv
@@ -92,6 +96,7 @@ uvicorn app.main:app --reload
 ```
 
 Create a `.env` file in `backend/` with:
+
 ```
 MONGODB_URL=your_mongodb_connection_string
 DATABASE_NAME=ai_interview_db
@@ -105,6 +110,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 ### Frontend
+
 ```bash
 cd frontend
 npm install
